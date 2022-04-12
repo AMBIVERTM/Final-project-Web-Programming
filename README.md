@@ -3,4 +3,4 @@ FTU EDUCATION is FTU online social network service that  allowing for everyone t
 
 visit our website -> https://fsslh007.github.io/Final-project-Web-programming-2-2022/
 
-![homepage](https://user-images.githubusercontent.com/82018181/162931936-4152705a-3054-4725-9296-8a22880c0788.png)
+![homepage](https://user-images.githubusercontent.com/82018181/162931936-4152705a-3054-4725-9296-8a22880c0788.png)![profile](https://user-images.githubusercontent.com/82018181/162946853-57549f04-0e9e-4810-ba9a-92588d7f7a78.png)
