@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+    text-decoration: none; 
+}
+body{
+    background: #D6EAF8;
+}
+
+/*Navbar*/
+.menu{
+    background-image: linear-gradient(90deg,#D6EAF8,#3498DB);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.avatar{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+}
+.avatar .img{
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.avatar .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.left , .right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 30%;
+    margin-right: 120px;
+}
+.left{
+    margin-left: 20px;
+}
+h2{
+    align-items: center;
+    font-size: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8F9F9;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 25px;
+    padding-right: 10px;
+}
+.search i{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+}
+.search:hover{
+    background-color: #909497;
+}
+.search input::placeholder{
+    color: #1B2631  ;
+}
+.right{
+    margin-left: -10px;
+}
+.right .item{
+    width: 4rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right .signout{
+    font-weight: bold;
+    background-color: #F39C12;
+    height: 3rem;
+    padding: 0 1rem;
+    border-radius: 25px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.right .signout :hover{
+    background-color: #d6be97;
+}
+.right .item i{
+    font-size: 1.5rem;
+    color: #1B2631;
+}
+.right .item :hover{
+    background-color:#a2aab1;
+    border-radius: 30px;
+}
+
+/*profile Page*/
+.container{
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box{
+    width: 650px;
+    background: #F4F6F7;
+    overflow: hidden;
+    text-align: center;
+}
+.header{
+    background-image: url(page.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.body{
+    padding: 0 20px 30px;
+}
+.img-profile{
+    overflow: hidden;
+    margin: -60px auto 30px auto;
+}
+.img-profile img{
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #F4F6F7;
+}
+
+.name{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.city{
+    margin-top: -30px;
+    font-weight: 400;
+    color: hsl(0, 11%, 12%);
+    opacity: .6;
+}
+.sm a{
+    color: blue;
+    width: 50px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.edit button{
+    width: 100px;
+    height: 30px;
+    background-color: #F39C12;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold; 
+}
+.edit button:hover{
+    background-color: #F5B041;
+}
+
+/*About*/
+.about_me{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box2{
+    width: 650px;
+    border-radius: 20px;
+    background: #F4F6F7;
+    overflow: hidden;
+    padding-left: 20px;
+}
+.info{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content{
+    padding: 20px;
+    background-color: #E5E7E9;
+    border-radius: 15px;
+    width: 240px;
+    text-align: center;
+}
+h4{
+    padding: 10px;
+}
+
+/*Post*/
+.container_2{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    background-color: #F4F6F7;
+    flex-direction: column;
+    width: 650px;
+    margin-left: 397px;
+    border-radius: 5px;
+    
+    
+}
+.name_2{
+    margin-top: -200px; 
+    background-color: #E5E7E9;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+.name_2 img{
+    width: 100px;
+    height: 50px;
+    margin-left: -480px;
+}
+.name_2 h5{
+    display: flex;
+    font-size: 12px;
+    margin-left: -20px;
+    margin-top: -12px;
+    font-weight: bold; 
+}
+.name_2 p{
+    font-size: 10px;
+    margin-top: 20px;
+    color: #797D7F;
+    margin-left: -90px;    
+    display: flex;
+}
+.post{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px; 
+}
+.press{
+    display: flex;
+    margin: 0px 0px;
+}
+.press .like{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 320px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #E5E7E9;
+    color: #797D7F;
+    margin-left: 5px;
+}
+.press .like:hover{
+    background-color: #A6ACAF;
+    color: #212F3C;
+}
+
+.press .comment{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 315px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #E5E7E9;
+    color: #797D7F;
+    margin-left: 2px;
+}
+.press .comment:hover{
+    background-color: #A6ACAF;
+    color: #212F3C;
+}
+
+/*Menu Bar*/
+#main{
+    float: left;
+    width: 20%;
+    height: 700px;
+    padding-top: 15px;
+    padding-left: 70px;
+}
+#main #section  ul  li {
+    list-style: none; /*ลบจุดขาว*/
+    align-items: center; 
+    font-size: large;
+    padding-bottom: 40px;
+}
+#main #section  ul  li img{
+    width: 40px;
+    padding-right: 5px;
+    justify-content: space-between;
+}
+#sidebartwo {
+    float: right;
+    width: 25%;
+    padding: 10px;
+    height: 700px;
+}
+#sidebartwo table {
+    padding: 7px;
+    background-color: #F4F6F7;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 15px;
+}
+#sidebartwo table th{
+    padding: 10px;
+    background-color: #E5E7E9;
+    border-radius: 8px;
+}
+#sidebartwo table  td{
+    padding: 15px;
+}
