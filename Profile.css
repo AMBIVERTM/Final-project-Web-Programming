@@ -203,11 +203,9 @@ h2{
     margin-bottom: 10px;
 }
 .content{
-    padding: 20px;
-    background-color: #E5E7E9;
+    padding: 25px;
     border-radius: 15px;
-    width: 240px;
-    text-align: center;
+    width: 300px;
 }
 h4{
     padding: 10px;
@@ -218,13 +216,13 @@ h4{
     height: 60vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
     background-color: #F4F6F7;
     flex-direction: column;
     width: 650px;
-    margin-left: 397px;
     border-radius: 5px;
-    
-    
+    margin-left: 478px;
 }
 .name_2{
     margin-top: -200px; 
